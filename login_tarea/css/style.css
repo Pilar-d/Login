@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(204, 159, 212);
+}
+
+h1{
+    color: rgb(94, 16, 167);
+    font-size: 27px;
+}
+h3{
+    font-size: 20px;
+    color: rgb(100, 16, 178);
+    font-family: 'Times New Roman', Times, serif;
+}
+h3:hover{
+    color: aliceblue;
+}
+#imgLogo{
+    border-radius: 10%;
+
+}
+#contenedorLogin{
+    align-content: center;
+    text-align: center;
+    height: 400px;
+    width: 500px;
+    background-color: rgb(193, 126, 235);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contenedorRegistro{
+    align-content: center;
+    text-align: center;
+    height: 500px;
+    width: 800px;
+    background-color: rgb(193, 126, 235);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    align-content: center;
+    text-align: center;
+    background-color: rgb(193, 126, 235);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#buttonIniciar{
+    color: blueviolet;
+    font-size: 18px;
+}
+#buttonIniciar:hover {
+    color: rgb(225, 186, 243);
+}
+#buttonRegistrar{
+    color: blueviolet;
+    font-size: 18px;
+}
+#buttonRegistrar:hover {
+    color: rgb(225, 186, 243);
+}
+
+.caja{
+    display: inline-flex;
+    border-radius: 10%;
+
+}

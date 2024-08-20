@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Regisro</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <img src="./img/logo.png" id="imgLogo" alt="" height="150px">
+
+        </ul>
+    </nav>
+    <section class="contendedor" id="contenedorRegistro">
+        <h1>Registrate</h1>
+            <form action="">
+                <h3 class="caja">Ingresa tu nombre </h3>
+                <input class="caja1" type="text" placeholder="Nombre" name="nombre" required>
+
+                <h3 class="caja">Ingresa tu apellido</h3>
+                <input class="caja" type="text" placeholder="Apellido" name="apellido" required>
+
+                <h3 class="caja">Ingresa tu edad</h3>
+                <input class="caja" type="number" min="1" max="100" placeholder="Edad" name="Edad" required>
+
+                <h3 class="caja">Ingresa tu genero</h3>
+                <select class="caja" name="genero" id="Inputgenero" required>
+                    <option value="">Femenino</option>
+                    <option value="">Masculino</option>
+                    <option value="">No binario</option>
+                    <option value="">Otro</option>
+                    <option value="">No quiero responder</option>
+                </select><br>
+
+                <h3 class="caja"> Ingresa tu correo</h3>
+                <input class="caja" type="email" placeholder="correo@gmail.com" name="correo" required>
+
+                <h3 class="caja">Ingresa tu contraseña</h3>
+                <input class="caja" type="password" placeholder="**********" name="contrasena" required><br>
+
+                <br><button id="buttonRegistrar">Registrar</button><br>
+                <br><br>
+                <h3>¿Deseas volver atras? </h3>
+                <a href="./login.html">
+                    <input type="button" value="Volver" id="buttonIniciar">
+                </a>
+            </form><br>
+    </section>
+    <br><br>
+</body>
+</html>
